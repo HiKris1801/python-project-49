@@ -8,5 +8,3 @@ package-install:
 	uv tool install dist/*.whl
 make lint:
 	uv run ruff chek brain_games
-make check: 
-	test lint
