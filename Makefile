@@ -7,4 +7,7 @@ build:
 package-install:
 	uv tool install dist/*.whl
 make lint:
-	uv run ruff chek brain_games
+	uv run ruff check brain_games
+braing-even:
+	uv run brain-even
+

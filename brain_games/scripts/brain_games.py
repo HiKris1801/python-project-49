@@ -1,6 +1,4 @@
-from brain.games.cly import welcome_user
-
-from brain_games.cly import greet
+from brain_games.cly import greet, welcome_user
 
 
 def main():
