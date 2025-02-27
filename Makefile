@@ -12,4 +12,6 @@ braing-even:
 	uv run brain-even
 braing-calc:
 	uv run brain-calc
+braing-gcd:
+	uv run brain-gcd
 

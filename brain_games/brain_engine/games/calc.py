@@ -25,4 +25,4 @@ def generation_number():  # Генерация случайного выраже
     math_oper = choice(MATHS_OPERATORS)
     true_answer = get_result_by_math_oper(num1, num2, math_oper)
     question = f'{num1} {math_oper} {num2}'
-    return str(true_answer), str(question)
+    return str(true_answer), question
