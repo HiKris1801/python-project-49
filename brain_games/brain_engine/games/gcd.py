@@ -1,8 +1,10 @@
-from random import randint
 import math
+from random import randint
+
 from brain_games.brain_engine.const import GCD_ACTION
 
 RULES = GCD_ACTION
+
 
 def get_ask_question():
     return GCD_ACTION

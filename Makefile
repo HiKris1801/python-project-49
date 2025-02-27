@@ -16,3 +16,5 @@ braing-gcd:
 	uv run brain-gcd
 braing-progression:
 	uv run brain-progression
+braing-prime:
+	uv run brain-prime
