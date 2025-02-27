@@ -14,4 +14,5 @@ braing-calc:
 	uv run brain-calc
 braing-gcd:
 	uv run brain-gcd
-
+braing-progression:
+	uv run brain-progression

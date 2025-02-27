@@ -4,3 +4,4 @@ CALC_QUEST = 'What is the result of the expression?'
 GCD_ACTION='Find the greatest common divisor of given numbers.'
 
 MATHS_OPERATORS = ('+', '-', '*')
+MIN_PROGRESSION_LENGTH,MAX_PROGRESSION_LENGTH = 5 ,10
