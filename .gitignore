@@ -1,5 +1,8 @@
-__pycache__/
+*.egg-info
+__pycache__
+dist/
 *.pyc
-*.pyo
-*.pyd
-.venv/
+.venv
+.coverage
+coverage.xml
+*_cache/
