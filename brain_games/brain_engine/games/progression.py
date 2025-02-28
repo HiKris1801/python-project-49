@@ -1,9 +1,9 @@
 from random import randint
 
 from brain_games.brain_engine.const import (
-    POGRESSION_RULES,
     MAX_PROGRESSION_LENGTH,
     MIN_PROGRESSION_LENGTH,
+    POGRESSION_RULES,
 )
 
 RULES = POGRESSION_RULES

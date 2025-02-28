@@ -22,7 +22,8 @@ def run_game_and_counter_answer(user_name, game_module):  # подсчет пр�
             print('Correct!')
         else:
             print(
-                f'{answer_user} is wrong answer ;(. Correct answer was {true_answer}.\n Let\'s try again, {user_name}!')
+                f'{answer_user} is wrong answer ;(. Correct answer was {true_answer}')
+            print(f'Let\'s try again, {user_name}!')
             return
     if correct_answer == 3:  # Проверка, правильных ответов у игрока
         print(f'Congratulations, {user_name}!')
