@@ -1,16 +1,16 @@
 from random import randint
 
 from brain_games.brain_engine.const import (
-    GCD_ACTION,
+    POGRESSION_RULES,
     MAX_PROGRESSION_LENGTH,
     MIN_PROGRESSION_LENGTH,
 )
 
-RULES = GCD_ACTION
+RULES = POGRESSION_RULES
 
 
 def get_ask_question():
-    return GCD_ACTION
+    return POGRESSION_RULES
 
 
 def generation_number():
