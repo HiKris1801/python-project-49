@@ -20,7 +20,7 @@ def get_result_by_math_oper(num1, num2, math_oper):  # вычисление вы
         raise ValueError(f'Unsupported operator: {math_oper}')
 
 
-def generation_number():  # Генерация случайного выражения и его правильный ответ
+def generation_number():  # Генерация случ. выражения и его правильный ответ
     num1, num2 = randint(1, 10), randint(1, 10)
     math_oper = choice(MATHS_OPERATORS)
     true_answer = get_result_by_math_oper(num1, num2, math_oper)
