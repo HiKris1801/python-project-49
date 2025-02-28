@@ -4,7 +4,7 @@ import prompt
 def start_game(game_module):  # запуск игры
     print("Welcome to the Brain Games!")  # Приветствуем игрока
     user_name = prompt.string("May I have your name? ")  # Узнаем имя игрока
-    print(f"Hello, {user_name}!") 
+    print(f"Hello, {user_name}!")
 
     print(game_module.RULES)  # Показываем правила
 
@@ -25,5 +25,5 @@ def run_game_and_counter_answer(user_name, game_module):  # подсчет пр�
                 f'{answer_user} is wrong answer ;(. Correct answer was {true_answer}.\n Let\'s try again,{user_name} !')
             return
     if correct_answer == 3:  # Проверка, правильных ответов у игрока
-        print(f'Congratulations, {user_name} !')
+        print(f'Congratulations, {user_name}!')
 
