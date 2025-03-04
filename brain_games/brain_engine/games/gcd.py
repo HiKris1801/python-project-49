@@ -1,7 +1,7 @@
 import math
 from random import randint
 
-from brain_games.brain_engine.const import GCD_ACTION, MIN_NUM, MAX_NUM
+from brain_games.brain_engine.const import GCD_ACTION, MAX_NUM, MIN_NUM
 
 RULES = GCD_ACTION
 

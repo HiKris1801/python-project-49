@@ -1,6 +1,6 @@
 from random import randint
 
-from brain_games.brain_engine.const import PRIME_RULES, MIN_NUM, MAX_NUM
+from brain_games.brain_engine.const import MAX_NUM, MIN_NUM, PRIME_RULES
 
 RULES = PRIME_RULES
 

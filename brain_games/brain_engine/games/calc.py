@@ -1,6 +1,11 @@
 from random import choice, randint
 
-from brain_games.brain_engine.const import CALC_QUEST, MATHS_OPERATORS, MIN_NUM, MAX_NUM
+from brain_games.brain_engine.const import (
+    CALC_QUEST,
+    MATHS_OPERATORS,
+    MAX_NUM,
+    MIN_NUM,
+)
 
 RULES = CALC_QUEST
 

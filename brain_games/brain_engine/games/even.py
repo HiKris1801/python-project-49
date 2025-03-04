@@ -1,5 +1,6 @@
 from random import randint
-from brain_games.brain_engine.const import MIN_NUM, MAX_NUM
+
+from brain_games.brain_engine.const import MAX_NUM, MIN_NUM
 
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
