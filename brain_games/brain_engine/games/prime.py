@@ -1,6 +1,6 @@
 from random import randint
 
-from brain_games.brain_engine.const import PRIME_RULES
+from brain_games.brain_engine.const import PRIME_RULES, MIN_NUM, MAX_NUM
 
 RULES = PRIME_RULES
 
@@ -19,7 +19,7 @@ def is_prime(num):  # проверка на простое число
 
 
 def generation_number():  # генерация числа
-    random_number = randint(1, 10)
+    random_number = randint(MIN_NUM, MAX_NUM)
     question = str(random_number)
     true_answer = 'yes' if is_prime(random_number) else 'no'
     return true_answer, question

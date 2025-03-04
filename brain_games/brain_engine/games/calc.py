@@ -1,6 +1,6 @@
 from random import choice, randint
 
-from brain_games.brain_engine.const import CALC_QUEST, MATHS_OPERATORS
+from brain_games.brain_engine.const import CALC_QUEST, MATHS_OPERATORS, MIN_NUM, MAX_NUM
 
 RULES = CALC_QUEST
 
@@ -21,7 +21,7 @@ def get_result_by_math_oper(num1, num2, math_oper):  # вычисление вы
 
 
 def generation_number():  # Генерация случ. выражения и его правильный ответ
-    num1, num2 = randint(1, 10), randint(1, 10)
+    num1, num2 = randint(MIN_NUM, MAX_NUM), randint(MIN_NUM, MAX_NUM)
     math_oper = choice(MATHS_OPERATORS)
     true_answer = get_result_by_math_oper(num1, num2, math_oper)
     question = f'{num1} {math_oper} {num2}'

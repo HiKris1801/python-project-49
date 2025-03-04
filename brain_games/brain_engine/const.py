@@ -7,3 +7,6 @@ PRIME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 MATHS_OPERATORS = ('+', '-', '*')
 MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH = 5, 10
+
+MIN_NUM = 1
+MAX_NUM = 10
