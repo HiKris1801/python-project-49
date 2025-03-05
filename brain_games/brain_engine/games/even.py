@@ -1,8 +1,10 @@
 from random import randint
 
-from brain_games.brain_engine.const import MAX_NUM, MIN_NUM
+from brain_games.brain_engine.const import EVEN_RULES, MAX_NUM, MIN_NUM
 
-RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+def get_ask_question():
+    return EVEN_RULES
 
 
 def is_even(number):  # проверка четности

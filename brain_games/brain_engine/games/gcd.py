@@ -3,8 +3,6 @@ from random import randint
 
 from brain_games.brain_engine.const import GCD_ACTION, MAX_NUM, MIN_NUM
 
-RULES = GCD_ACTION
-
 
 def get_ask_question():
     return GCD_ACTION

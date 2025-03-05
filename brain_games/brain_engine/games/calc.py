@@ -7,8 +7,6 @@ from brain_games.brain_engine.const import (
     MIN_NUM,
 )
 
-RULES = CALC_QUEST
-
 
 def get_ask_question():
     return CALC_QUEST

@@ -6,8 +6,6 @@ def start_game(game_module):  # запуск игры
     user_name = prompt.string("May I have your name? ")  # Узнаем имя игрока
     print(f"Hello, {user_name}!")
 
-    print(game_module.RULES)  # Показываем правила
-
     run_game_and_counter_ans(user_name, game_module)
 
 
