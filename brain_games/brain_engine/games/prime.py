@@ -2,9 +2,7 @@ from random import randint
 
 from brain_games.brain_engine.const import MAX_NUM, MIN_NUM, PRIME_RULES
 
-
-def get_ask_question():
-    return PRIME_RULES
+RULES = PRIME_RULES
 
 
 def is_prime(num):  # проверка на простое число

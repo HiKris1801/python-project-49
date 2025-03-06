@@ -8,9 +8,7 @@ from brain_games.brain_engine.const import (
     POGRESSION_RULES,
 )
 
-
-def get_ask_question():
-    return POGRESSION_RULES
+RULES = POGRESSION_RULES
 
 
 def generation_number():

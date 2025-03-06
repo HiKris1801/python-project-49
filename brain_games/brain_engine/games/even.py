@@ -2,9 +2,7 @@ from random import randint
 
 from brain_games.brain_engine.const import EVEN_RULES, MAX_NUM, MIN_NUM
 
-
-def get_ask_question():
-    return EVEN_RULES
+RULES = EVEN_RULES
 
 
 def is_even(number):  # проверка четности

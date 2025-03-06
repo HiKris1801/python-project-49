@@ -7,9 +7,7 @@ from brain_games.brain_engine.const import (
     MIN_NUM,
 )
 
-
-def get_ask_question():
-    return CALC_QUEST
+RULES = CALC_QUEST
 
 
 def get_result_by_math_oper(num1, num2, math_oper):  # вычисление выражений
